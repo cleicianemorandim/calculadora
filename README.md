@@ -67,13 +67,13 @@
   const visorAtual = document.getElementById("atual");
   const visorHist = document.getElementById("historico");
 
-  // Função que faz a conta de fato
+  // Função que faz a conta de fato kkkkk
   function calcular(a, b, op) {
     switch (op) {
       case "+": return a + b;
       case "-": return a - b;
       case "*": return a * b;
-      case "/": return b === 0 ? NaN : a / b;  // divisão por zero vira erro
+      case "/": return b === 0 ? NaN : a / b;  // divisão por zero vira erro!!!
       case "%": return a % b;
     }
   }
